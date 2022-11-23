@@ -1766,7 +1766,7 @@ function createPrintMap(width, height, dpi, format, unit, zoom, center,
     // container.style.height = toPixels(height);
     // container.style.width = '1280px';
     // container.style.height = '945px';
-    container.style.width = '460px';
+    container.style.width = '485px';
     container.style.height = '600px';
     hidden.appendChild(container);
 
