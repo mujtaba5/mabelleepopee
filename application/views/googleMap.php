@@ -1151,7 +1151,7 @@ $this->load->view('layouts/header'); ?>
         var styleSelect_= $('#styleSelect').val();
         color_line= '';
         if(styleSelect_.includes("satellite-new-style.json") || styleSelect_.includes("black-and-white-style.json")){
-          color_line='rgb(168, 165, 165)';
+          color_line='white';
         }else{
           color_line='darkgray';
         }
@@ -1533,7 +1533,7 @@ $this->load->view('layouts/header'); ?>
                 var styleSelect_= $('#styleSelect').val();
                 color_line= '';
                 if(styleSelect_.includes("satellite-new-style.json") || styleSelect_.includes("black-and-white-style.json")){
-                  color_line='rgb(168, 165, 165)';
+                  color_line='white';
                 }else{
                   color_line='darkgray';
                 }
@@ -1835,7 +1835,7 @@ function createPrintMap(width, height, dpi, format, unit, zoom, center,
                 var styleSelect_= $('#styleSelect').val();
                 var color_line= '';
                 if(styleSelect_.includes("satellite-new-style.json") || styleSelect_.includes("black-and-white-style.json")){
-                  color_line='rgb(168, 165, 165)';
+                  color_line='white';
                 }else{
                   color_line='darkgray';
                 }
